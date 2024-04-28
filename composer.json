@@ -1,0 +1,26 @@
+{
+    "name": "Lambq\/whatsproto",
+    "description": "Whatsapp implementation in PHP",
+    "keywords": [
+        "whatsapp",
+        "api",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lambq",
+            "email": "cbterli@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "rakshazi/libsignal-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lambq\\WhatsProto\\": "src"
+        }
+    }
+}
